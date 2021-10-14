@@ -1,7 +1,7 @@
 # Zadanie rekrutacyjne Software Test Engineer
 Aby przeprowadzić test należy mieć otwartą konsolę poleceń w lokalizacji w której zawarte są pliki z kodem php. Gdy jest to już zrobione w konsoli należy wpisać php oraz nazwę pliku z rozszerzeniem (np. php nazwa_pliku.php)
 
-Aby wykonać jakikolwiek test w pierwszej kolejności należy uzyskać token dostępu dla swojego programu. Aby to zrobić należy zdefiniować CLIENT_ID oraz CLIENT_SECRET. Oba te parametry generowane są gdy stworzymy nową aplikację w https://apps.developer.allegro.pl/. 
+Wykonanie jakiegokolwiek testu w pierwszej kolejności wymaga od nas uzyskania tokenu dostępu dla swojego programu. Aby to zrobić należy zdefiniować CLIENT_ID oraz CLIENT_SECRET. Oba te parametry generowane są gdy stworzymy nową aplikację w https://apps.developer.allegro.pl/. 
 Dodane są one w 3 i 4 lini każdego pliku php. Dzięki temu funkcja getAccessToken() generuje token używany do autoryzacji. 
 
 ## Testy akceptacyjne dla metody:
