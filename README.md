@@ -7,7 +7,7 @@ Dodane są one w 3 i 4 lini każdego pliku php. Dzięki temu funkcja getAccessTo
 ## Testy akceptacyjne dla metody:
 
 1. ### __GET IDs of Allegro categories, /sale/categories__
-__api_allegro1.php__
+__GET_IDs_of_Allegro_categories.php__
 
 
 testowany endpoint: https://api.allegro.pl/sale/categories
@@ -31,7 +31,7 @@ Zapytanie zwrócone z wynikiem pozytywnym (200) powinno zwrócić tablicę kateg
 
 - - -
 - - -
-__api_allegro1_error404.php__
+__GET_IDs_of_Allegro_categories_error404.php__
 
 Testowany endpoint: https://api.allegro.pl/sale/categories
 
@@ -52,7 +52,7 @@ Test tego endpointu powinien dać odpowiedź 404 zwracając tablicę z danymi b�
 ```
 
 2. ### __GET a category by ID, /sale/categories/{categoryId}__
-__api_allegro2.php__
+__GET_a_category_by_ID.php__
 
 Testowany endpoint: https://api.allegro.pl/sale/categories/709
 
@@ -73,7 +73,7 @@ Odpowiedź pozytywna (200) powinna zawierać, następujące obiekty:
 
 ---
 ---
-__api_allegro2_error404.php__
+__GET_a_category_by_ID_error404.php__
 
 testowany endpoint: https://api.allegro.pl/sale/categories/0
 
@@ -95,7 +95,7 @@ Test tego endpointu powinien dać odpowiedź 404 zwracając tablicę z danymi b�
 
 3. ### __GET parameters supported by a category, /sale/categories/{categoryId}/parameters__ 
 
-__api_allegro3.php__
+__GET_parameters_supported.php__
 
 testowany endpoint: https://api.allegro.pl/sale/categories/121882/parameters
 
@@ -132,7 +132,7 @@ Test dla powyższego endpointu powinien dać odpowiedź 200 zwracając tablicę 
 
 ---
 ---
-__api_allegro3_error404.php__
+__GET_parameters_supported_error404.php__
 
 testowany endpoint: https://api.allegro.pl/sale/categories/121882/parameterss
 
